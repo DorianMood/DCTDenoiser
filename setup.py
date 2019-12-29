@@ -12,7 +12,7 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='DCTDenoise',
+    name='DCT',
     version='0.1.0',
     description='Simple DCT denoiser',
     long_description=readme,
