@@ -5,7 +5,7 @@ import cv2
 import DCT
 
 # Read image
-fileName = 'tram256.png'
+fileName = './img/tram256.png'
 image = np.float64(cv2.imread(fileName, 0))
 
 # Create noised and denoised images
